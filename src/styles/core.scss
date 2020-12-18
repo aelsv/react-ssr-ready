@@ -1,0 +1,42 @@
+@import "./fonts/index";
+@import "./typography";
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  //height: 100%;
+  //color: $gray-dark;
+  font: $font;
+  line-height: 1.2;
+  //background-color: $white;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+:global {
+  #root {
+    //top: 0;
+    //left: 0;
+    //right: 0;
+    //bottom: 0;
+    //position: absolute;
+    //display: flex;
+    //align-items: center;
+    //justify-content: center;
+  }
+}

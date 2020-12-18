@@ -1,0 +1,12 @@
+.icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  shape-rendering: auto;
+  transform: translate3d(0px, 0px, 0px);
+
+  &_block {
+    display: block;
+  }
+}
